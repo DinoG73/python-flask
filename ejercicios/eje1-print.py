@@ -25,8 +25,30 @@ else:
 
 '''
 #6) Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
+# num1 = int(input("Ingrese el primer numero: "))
+# num2 = int(input("Ingrese el segundo numero: "))
+# num3 = int(input("Ingrese el tercer numero: "))
 
+# if num1 > num2 and num1 > num3:
+#     print('el mayor es ', num1)
+# elif num2 > num1 and num2 > num3:
+#     print('el mayor es ', num2)
+# else:
+#     print('el mayor es ', num3)
 #7) Escribe un programa que pida un número y diga si es divisible por 2
+# num1 = int(input("Ingrese el numero: "))
+# if num1 % 2 == 0:
+#     print('El numero: ', num1, ' es divisible por 2')
+# else:
+#     print('El numero ', num1, ' no es divisible por 2')
 #8) Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro)
-#9) Añadir al ejercicio anterior que nos diga por cuál de los cuatro es divisible (hay que decir todos por los que es divisible)
 
+#9) Añadir al ejercicio anterior que nos diga por cuál de los cuatro es divisible (hay que decir todos por los que es divisible)
+#10) Escribir un programa que escriba en pantalla los divisores de un número dado
+# num = int(input('ingrese un numero:'))
+# for i in range (1, num):
+#     if num % i == 0:
+#         print('el numero ', num, ' es divisible por ', i)
+
+#11) Escribir un programa que nos diga si un número dado es primo (no es divisible
+#por ninguno otro número que no sea él mismo o la unidad)   
