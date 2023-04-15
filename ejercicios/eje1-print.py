@@ -1,3 +1,4 @@
+import math
 #1) Escribe un programa muestre por pantalla “Hello World”
 print('hola bruno')
 print ('Vamos para adelante')
@@ -51,4 +52,14 @@ else:
 #         print('el numero ', num, ' es divisible por ', i)
 
 #11) Escribir un programa que nos diga si un número dado es primo (no es divisible
-#por ninguno otro número que no sea él mismo o la unidad)   
+#por ninguno otro número que no sea él mismo o la unidad)
+num = int(input('ingrese un numero:'))
+if num <= 0:
+    print('debe ingresar un numero mayor a cero')
+for i in range(2, num // 2):
+    if num % i == 0:
+        print('el numero no es primo')
+    else:
+        print('el numero es primo')
+
+  
