@@ -35,14 +35,10 @@ def create_app():
 
 
     return app
-
 '''
-
 Flask-SQLAlchemy 3 no longer accepts an app argument to methods like create_all. Instead, it always requires an active Flask application context.
 There is no need for that create_database function. SQLAlchemy will already not overwrite an existing file, and the only time the database wouldn't be created is if it raised an error.
-
 '''
-
 def create_database(app):
      if not path.exists('website/' + DB_NAME):
         with app.app_context(): #solucion al problerma anterior
